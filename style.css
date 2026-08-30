@@ -512,11 +512,73 @@ footer {
     padding: 4px;
   }
  
-  .hero-icon {
-    display: none;
-  }
- 
+.hero-icon {
+  display: none;
 }
+
+}
+
+/* Savvantage Brand Header */
+
+.brand-header {
+  max-width: none;
+  margin: -10px 0 18px;
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-align: left;
+}
+
+.brand-icon {
+  width: 42px;
+  height: 42px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: #061a3a;
+  padding: 3px;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.18);
+}
+
+.brand-name {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: white;
+  line-height: 1;
+}
+
+.gold-v {
+  color: #e9a623;
+}
+
+.hero-intro {
+  max-width: 620px;
+  margin: 0 auto 24px;
+  font-size: 17px;
+  line-height: 1.5;
+  color: #eef4ff;
+}
+.hero-highlight {
+  color: #e9a623;
+  font-weight: 600;
+.category-icon {
+  color: #e9a623;
+}
+
+.category-icon svg {
+  width: 28px;
+  height: 28px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+}
+
 
 
 
