@@ -34,7 +34,19 @@ body {
   line-height: 1.6;
   color: #eef4ff;
 }
- 
+ .hero .hero-support {
+  max-width: 900px;
+  margin: 10px auto 24px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #d8e2f0;
+}
+.hero-support-highlight {
+  font-weight: 600;
+  color: #ffffff;
+}
+
 .hero-icon {
   position: absolute;
   opacity: 0.09;
@@ -209,7 +221,10 @@ body {
 .fitness {
   background: #e11d48;
 }
- 
+ .services {
+  background: #374151;
+}
+
 .item-card {
   display: grid;
   grid-template-columns: 66px 1fr;
@@ -320,7 +335,14 @@ a:hover {
 .fitness-btn {
   background: #e11d48;
 }
- 
+ .services-btn {
+  background: #374151;
+}
+
+.services-btn:hover {
+  background: #1f2937;
+}
+
 .fitness-btn:hover {
   background: #be123c;
 }
