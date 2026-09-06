@@ -538,7 +538,13 @@ footer {
   display: none;
 }
 
+.item-card > div > a {
+  width: calc(100% + 70px);
+  margin-left: -70px;
 }
+
+}
+
 
 /* Savvantage Brand Header */
 
