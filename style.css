@@ -18,6 +18,43 @@ body {
   padding: 70px 25px 50px;
 }
  
+/* Holiday decorations */
+.hero::before,
+.hero::after {
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+  white-space: pre;
+  line-height: 1;
+}
+
+.hero::before {
+  content: "❄";
+  top: 8%;
+  left: 3%;
+  font-size: 28px;
+  color: rgba(255,255,255,0.8);
+  text-shadow:
+    0 85px 0 #e9a623,
+    0 200px 0 rgba(255,255,255,0.7),
+    30px 350px 0 #e9a623,
+    620px -5px 0 rgba(255,255,255,0.7);
+}
+
+.hero::after {
+  content: "❄";
+  top: 8%;
+  right: 3%;
+  font-size: 30px;
+  color: #e9a623;
+  text-shadow:
+    -65px 10px 0 rgba(255,255,255,0.8),
+    -15px 90px 0 #e9a623,
+    10px 160px 0 rgba(255,255,255,0.7),
+    -40px 330px 0 #e9a623,
+    -100px 360px 0 rgba(255,255,255,0.7);
+}
+
 .hero h1 {
   font-size: 56px;
   font-weight: 800;
@@ -606,6 +643,7 @@ footer {
 }
 
 }
+
 
 
 
